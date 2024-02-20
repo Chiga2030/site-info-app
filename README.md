@@ -1,5 +1,8 @@
 # site-info-app
 
+## Demo
+[Github-pages](https://chiga2030.github.io/site-info-app/)
+
 ## Stack
 - Vue 2
 - Vuex
