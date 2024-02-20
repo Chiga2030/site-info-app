@@ -1,24 +1,17 @@
 # site-info-app
 
-## Project setup
-```
-npm install
-```
+## Stack
+- Vue 2
+- Vuex
+- vuetify
+- axios
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Описание
+Приложение введенному url сайта предоставляет пользователю два типа информации об этом сайте:
+- данные о хостинге.
+- список используемых технологий.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Информация запрашивается от внешнего ресурса:
+- Если получен результат, данные JSON-ответа отображаются в виде таблицы.
+- Если получен http код, отличный от 200, показываем пользователю сообщение об ошибке.
+- На время загрузки данных предусмотрен спиннер как индикатор загрузки.
